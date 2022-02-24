@@ -7,3 +7,7 @@ Electronic Phone Book
 4. List all entries
 5. Quit 
 """
+
+print(menu) 
+
+selected_option = input("what do you want to do (1-5)?")
