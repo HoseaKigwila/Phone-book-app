@@ -1,3 +1,5 @@
+phonebook = {}
+
 menu = """
 Electronic Phone Book
 =====================
