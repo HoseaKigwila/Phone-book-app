@@ -28,7 +28,6 @@ while not(hasQuit):
         print(menu)
     elif selected_option == "3":
         name = input("What contact's number would you like to delete? ")
-         option_4
         phonebook.pop(phonebook[name], phone_number)      
     elif selected_option == "4":
         print(phonebook[name] + phonebook[name] )       
