@@ -34,6 +34,3 @@ while not(hasQuit):
     elif selected_option =="5":
         hasQuit = True
    
-
-    elif selected_option =="5":
-        hasQuit = True
