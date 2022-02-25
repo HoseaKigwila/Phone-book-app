@@ -30,7 +30,7 @@ while not(hasQuit):
         name = input("What contact's number would you like to delete? ")
         phonebook.pop(phonebook[name], phone_number)      
     elif selected_option == "4":
-        print(phonebook[name] + phonebook[name] )       
+        phonebook.values(name)      
     elif selected_option =="5":
         hasQuit = True
    
