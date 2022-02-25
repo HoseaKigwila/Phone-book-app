@@ -28,9 +28,7 @@ while not(hasQuit):
         print(menu)
     elif selected_option == "3":
         name = input("What contact's number would you like to delete? ")
-        print("Name: " + name)
-        print("Deleted entry for " + name)
-        print(menu)    
+        phonebook.pop(phonebook[name], phone_number)   
 
     elif selected_option =="5":
         hasQuit = True
